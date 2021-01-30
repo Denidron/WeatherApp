@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const DB_URI = 'mongodb+srv://denis:webappr@cluster0.hgkff.mongodb.net/weather?retryWrites=true&w=majority';
+const DB_URI = 'mongodb+srv://denis:webapp@cluster0.hgkff.mongodb.net/weather?retryWrites=true&w=majority';
 
 function connect() {
     return new Promise((resolve, reject) => {
